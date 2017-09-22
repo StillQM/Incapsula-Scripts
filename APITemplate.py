@@ -27,24 +27,8 @@ api_id = ''
 account_id = ''
 site_id = ''
 
-#Pagination 
-#page_size = 50  #The number of objects to return in the response. 50 by default
-#page_num = 0    #The page to return starting from 0. 0 by default
+#Find the rest of the input paramaters at the API reference
 
-#Time range specification
-#time_range = 'today' #[today(DEFAULT), last_7_days, last_30_days, last_90_days, month_to_date]
-
-#Account management
-#parent_id = ''     #The newly created account's parent ID. Invoking account used as default.
-#user_name = ''     #The account owner's name. Ex. 'John Doe'
-#plan_id = ''       #An identifier of the plan to assign to the new account. 
-#ref_id = ''        #Customer specific identifier for the operation.
-#account_name = ''  #Account Name
-#log_level = ''     #Sets the log reporting level for the site. [full, security, none, default]
-#log_account_id = ''#Numeric identifier of the account that purchased the logs integration. Authenticated account used by default.
-#param = ''         #
-
-#Still need to add the rest of the variables from the API reference
 """
 "       Builds an API request using the required and optional params
 "       Returns the response as a dictionary (Dictionary is a key:value table like a JSON file)
