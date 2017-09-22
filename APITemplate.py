@@ -44,7 +44,7 @@ site_id = ''
 #log_account_id = ''#Numeric identifier of the account that purchased the logs integration. Authenticated account used by default.
 #param = ''         #
 
-
+#Still need to add the rest of the variables from the API reference
 """
 "       Builds an API request using the required and optional params
 "       Returns the response as a dictionary (Dictionary is a key:value table like a JSON file)
@@ -104,7 +104,7 @@ def main():
     
 
 """""""""""""""""""""""""""
-" I N I T I A L I Z I N G "
+" H E R E W E G O B A B Y "
 """""""""""""""""""""""""""
 if __name__ == "__main__":
     main()
